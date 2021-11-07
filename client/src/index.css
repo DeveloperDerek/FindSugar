@@ -1,0 +1,37 @@
+.bold {
+  font-weight: bold;
+}
+
+.fill-vertical {
+  min-height: 100vh;
+}
+
+.searchProduct {
+  max-height: 75vh;
+}
+
+.recipe-input-box{
+  padding-top: 10px;
+  max-height: 20vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.barcode-img {
+  max-width: 15%;
+  height: auto;
+}
+
+.search-img {
+  max-width: 50%;
+  height: auto;
+}
+
+.popup {
+  position: fixed;
+  z-index: 2;
+  top: 30%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
